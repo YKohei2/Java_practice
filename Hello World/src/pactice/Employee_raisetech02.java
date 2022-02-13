@@ -63,6 +63,6 @@ public class Employee_raisetech02 {
 		return 10000 * Math.toIntExact(ChronoUnit.YEARS.between(this.enteredDate, this.retiredDate));
 	}
 
-
+//githubアップデート
 
 }

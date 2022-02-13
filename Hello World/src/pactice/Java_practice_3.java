@@ -51,12 +51,23 @@ public class Java_practice_3 {
 		int sum = 0;
 		
 		for (int i = 1; i <= 10; i++) {
-	       	sum = sum + i;
-		
-         System.out.println(sum);	
+	       	sum += i;
+		    //System.out.println("i:" + i);
 		}
-/*------------------------------------------*/
-         hello();
+            System.out.println("the sum is "+ sum);	
+//--------------------------------------------
+    	int sum2 = 0;
+    		
+    	for (int k = 1; k <= 10; k++) {
+    	       	sum += k;
+    		    //System.out.println("i:" + i);
+    		
+                System.out.println("this sum is "+ sum);	
+
+    	}
+            
+ /*------------------------------------------*/
+         //hello();
          
 /*------------------------------------------*/
          int num1 = 0;
@@ -64,12 +75,9 @@ public class Java_practice_3 {
          if (num1 < 5 || num2 < 20) {
         	 System.out.println("引数が0なら偽");
          }{
-        	 System.out.println("引数が1なら真");
-         }
-         	
-    }
-	public static void hello() {
-   	 System.out.println("こんにちは");
-    }
+        	 System.out.println("引数が1なら真");        	
+     }
 	
+	 //source tree test!
+  }
 }
